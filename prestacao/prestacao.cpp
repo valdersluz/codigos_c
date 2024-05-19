@@ -5,7 +5,6 @@ int main() {
     float valorMercadoria;
     int prestacao, entrada;
 
-    // Solicita o valor da mercadoria
     printf("Digite o valor da mercadoria: ");
     scanf("%f", &valorMercadoria);
 
@@ -15,7 +14,6 @@ int main() {
     // Calcula o valor da entrada
     entrada = (int) (valorMercadoria - 2 * prestacao);
 
-    // Exibe os resultados
     printf("Entrada: R$ %d,00\n", entrada);
     printf("Prestacoes: 2 x R$ %d,00\n", prestacao);
 
